@@ -24,7 +24,9 @@ namespace Vetigal24
 
         }
 
-        
+        private void comboBox_pregunta_SelectedIndexChanged(object sender, EventArgs e)
+        {
 
+        }
     }
 }

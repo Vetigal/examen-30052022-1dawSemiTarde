@@ -58,10 +58,16 @@
             // comboBox_pregunta
             // 
             this.comboBox_pregunta.FormattingEnabled = true;
+            this.comboBox_pregunta.Items.AddRange(new object[] {
+            "Respuesta A",
+            "Respuesta B",
+            "Respuesta C",
+            "Valor"});
             this.comboBox_pregunta.Location = new System.Drawing.Point(51, 179);
             this.comboBox_pregunta.Name = "comboBox_pregunta";
             this.comboBox_pregunta.Size = new System.Drawing.Size(337, 24);
             this.comboBox_pregunta.TabIndex = 2;
+            this.comboBox_pregunta.SelectedIndexChanged += new System.EventHandler(this.comboBox_pregunta_SelectedIndexChanged);
             // 
             // btn_niIdea
             // 

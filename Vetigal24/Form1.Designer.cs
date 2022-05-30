@@ -30,7 +30,7 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label0 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txt_jugador = new System.Windows.Forms.TextBox();
             this.lbl_puntuacion = new System.Windows.Forms.Label();
             this.btn_anyadir = new System.Windows.Forms.Button();
             this.btn_jugar = new System.Windows.Forms.Button();
@@ -58,12 +58,12 @@
             this.label0.TabIndex = 1;
             this.label0.Text = "Puntuación";
             // 
-            // textBox1
+            // txt_jugador
             // 
-            this.textBox1.Location = new System.Drawing.Point(720, 48);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 22);
-            this.textBox1.TabIndex = 2;
+            this.txt_jugador.Location = new System.Drawing.Point(720, 48);
+            this.txt_jugador.Name = "txt_jugador";
+            this.txt_jugador.Size = new System.Drawing.Size(100, 22);
+            this.txt_jugador.TabIndex = 2;
             // 
             // lbl_puntuacion
             // 
@@ -83,6 +83,7 @@
             this.btn_anyadir.TabIndex = 4;
             this.btn_anyadir.Text = "Añadir preguntas y respuestas";
             this.btn_anyadir.UseVisualStyleBackColor = true;
+            this.btn_anyadir.Click += new System.EventHandler(this.btn_anyadir_Click);
             // 
             // btn_jugar
             // 
@@ -92,8 +93,6 @@
             this.btn_jugar.Size = new System.Drawing.Size(394, 38);
             this.btn_jugar.TabIndex = 5;
             this.btn_jugar.Text = "Jugar";
-            this.btn_jugar.UseVisualStyleBackColor = true;
-            this.btn_jugar.Click += new System.EventHandler(this.btn_jugar_Click);
             // 
             // pictureBox1
             // 
@@ -113,7 +112,7 @@
             this.Controls.Add(this.btn_jugar);
             this.Controls.Add(this.btn_anyadir);
             this.Controls.Add(this.lbl_puntuacion);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txt_jugador);
             this.Controls.Add(this.label0);
             this.Controls.Add(this.label1);
             this.Name = "MainForm";
@@ -128,7 +127,7 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label0;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txt_jugador;
         private System.Windows.Forms.Label lbl_puntuacion;
         private System.Windows.Forms.Button btn_anyadir;
         private System.Windows.Forms.Button btn_jugar;

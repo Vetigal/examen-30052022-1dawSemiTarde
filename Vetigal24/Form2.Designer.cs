@@ -38,10 +38,10 @@
             this.btnCancelar = new System.Windows.Forms.Button();
             this.btnGuardar = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txt_A = new System.Windows.Forms.TextBox();
+            this.txt_B = new System.Windows.Forms.TextBox();
+            this.txt_C = new System.Windows.Forms.TextBox();
+            this.txt_valor = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -123,6 +123,7 @@
             this.btnCancelar.TabIndex = 7;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // btnGuardar
             // 
@@ -133,6 +134,7 @@
             this.btnGuardar.TabIndex = 8;
             this.btnGuardar.Text = "Guardar";
             this.btnGuardar.UseVisualStyleBackColor = true;
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
             // textBox1
             // 
@@ -141,43 +143,43 @@
             this.textBox1.Size = new System.Drawing.Size(237, 22);
             this.textBox1.TabIndex = 9;
             // 
-            // textBox2
+            // txt_A
             // 
-            this.textBox2.Location = new System.Drawing.Point(143, 195);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 22);
-            this.textBox2.TabIndex = 10;
+            this.txt_A.Location = new System.Drawing.Point(143, 195);
+            this.txt_A.Name = "txt_A";
+            this.txt_A.Size = new System.Drawing.Size(100, 22);
+            this.txt_A.TabIndex = 10;
             // 
-            // textBox3
+            // txt_B
             // 
-            this.textBox3.Location = new System.Drawing.Point(143, 247);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 22);
-            this.textBox3.TabIndex = 11;
+            this.txt_B.Location = new System.Drawing.Point(143, 247);
+            this.txt_B.Name = "txt_B";
+            this.txt_B.Size = new System.Drawing.Size(100, 22);
+            this.txt_B.TabIndex = 11;
             // 
-            // textBox4
+            // txt_C
             // 
-            this.textBox4.Location = new System.Drawing.Point(143, 300);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 22);
-            this.textBox4.TabIndex = 12;
+            this.txt_C.Location = new System.Drawing.Point(143, 300);
+            this.txt_C.Name = "txt_C";
+            this.txt_C.Size = new System.Drawing.Size(100, 22);
+            this.txt_C.TabIndex = 12;
             // 
-            // textBox5
+            // txt_valor
             // 
-            this.textBox5.Location = new System.Drawing.Point(143, 348);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 22);
-            this.textBox5.TabIndex = 13;
+            this.txt_valor.Location = new System.Drawing.Point(143, 348);
+            this.txt_valor.Name = "txt_valor";
+            this.txt_valor.Size = new System.Drawing.Size(100, 22);
+            this.txt_valor.TabIndex = 13;
             // 
             // QuestionForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(446, 450);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txt_valor);
+            this.Controls.Add(this.txt_C);
+            this.Controls.Add(this.txt_B);
+            this.Controls.Add(this.txt_A);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.btnGuardar);
             this.Controls.Add(this.btnCancelar);
@@ -207,9 +209,9 @@
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.Button btnGuardar;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txt_A;
+        private System.Windows.Forms.TextBox txt_B;
+        private System.Windows.Forms.TextBox txt_C;
+        private System.Windows.Forms.TextBox txt_valor;
     }
 }

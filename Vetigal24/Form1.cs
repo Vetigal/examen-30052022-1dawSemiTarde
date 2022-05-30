@@ -23,7 +23,7 @@ namespace Vetigal24
             InitializeComponent();
         }
 
-        public void play(QuestionModel) { }
+     //   public void play(QuestionModel) { }
 
         public void addQuestion()
         {
@@ -31,15 +31,15 @@ namespace Vetigal24
 
         private void btn_jugar_Click(object sender, EventArgs e)
         {
-            QuestionForm formQuestion = new QuestionForm();
-            if (formQuestion.ShowDialog() == DialogResult.OK)
-            {
-                string cadena1 = formQuestion.cad1;
-                string cadena2 = formQuestion.cad2;
-                bool boleano1 = formQuestion.bl1;
-                bool boleano2 = formQuestion.bl2;
+                player = txt_jugador.Text;
+                Form formulario = new QuestionForm();
+                formulario.ShowDialog();
+        }
 
-            }
+        private void btn_anyadir_Click(object sender, EventArgs e)
+        {
+            Form formPreguntas = new QuestionForm();
+            formPreguntas.ShowDialog();
         }
     }
 }
