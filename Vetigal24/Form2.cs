@@ -10,19 +10,19 @@ using System.Windows.Forms;
 
 namespace Vetigal24
 {
-    public partial class QuestionForm : Form
+    public partial class Form2 : Form
     {
         private string question;
         private string[]  answer;
         private int value;
 
-        public QuestionForm(string question, string[] answer, int value) {
+        public Form2(string question, string[] answer, int value) {
             this.question = question;
             this.answer = answer;
             this.value = value;
         }
 
-        public QuestionForm()
+        public Form2()
         {
             InitializeComponent();
         }

@@ -32,13 +32,13 @@ namespace Vetigal24
         private void btn_jugar_Click(object sender, EventArgs e)
         {
                 player = txt_jugador.Text;
-                Form formulario = new QuestionForm();
+                Form formulario = new Form2();
                 formulario.ShowDialog();
         }
 
         private void btn_anyadir_Click(object sender, EventArgs e)
         {
-            Form formPreguntas = new QuestionForm();
+            Form formPreguntas = new Form2();
             formPreguntas.ShowDialog();
         }
     }

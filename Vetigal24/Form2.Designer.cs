@@ -1,6 +1,6 @@
 ﻿namespace Vetigal24
 {
-    partial class QuestionForm
+    partial class Form2
     {
         /// <summary>
         /// Required designer variable.
@@ -171,7 +171,7 @@
             this.txt_valor.Size = new System.Drawing.Size(100, 22);
             this.txt_valor.TabIndex = 13;
             // 
-            // QuestionForm
+            // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -190,7 +190,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "QuestionForm";
+            this.Name = "Form2";
             this.Text = "Hola soy Mister question";
             this.ResumeLayout(false);
             this.PerformLayout();
