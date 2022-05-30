@@ -41,9 +41,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(589, 51);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(57, 16);
+            this.label1.Size = new System.Drawing.Size(69, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "Jugador";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -51,9 +52,10 @@
             // label0
             // 
             this.label0.AutoSize = true;
+            this.label0.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label0.Location = new System.Drawing.Point(589, 128);
             this.label0.Name = "label0";
-            this.label0.Size = new System.Drawing.Size(73, 16);
+            this.label0.Size = new System.Drawing.Size(92, 20);
             this.label0.TabIndex = 1;
             this.label0.Text = "Puntuación";
             // 
@@ -67,26 +69,28 @@
             // lbl_puntuacion
             // 
             this.lbl_puntuacion.AutoSize = true;
-            this.lbl_puntuacion.Location = new System.Drawing.Point(747, 128);
+            this.lbl_puntuacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_puntuacion.Location = new System.Drawing.Point(728, 128);
             this.lbl_puntuacion.Name = "lbl_puntuacion";
-            this.lbl_puntuacion.Size = new System.Drawing.Size(73, 16);
+            this.lbl_puntuacion.Size = new System.Drawing.Size(0, 20);
             this.lbl_puntuacion.TabIndex = 3;
-            this.lbl_puntuacion.Text = "Puntuación";
             // 
             // btn_anyadir
             // 
+            this.btn_anyadir.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_anyadir.Location = new System.Drawing.Point(120, 383);
             this.btn_anyadir.Name = "btn_anyadir";
-            this.btn_anyadir.Size = new System.Drawing.Size(137, 56);
+            this.btn_anyadir.Size = new System.Drawing.Size(394, 49);
             this.btn_anyadir.TabIndex = 4;
             this.btn_anyadir.Text = "Añadir preguntas y respuestas";
             this.btn_anyadir.UseVisualStyleBackColor = true;
             // 
             // btn_jugar
             // 
+            this.btn_jugar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_jugar.Location = new System.Drawing.Point(120, 471);
             this.btn_jugar.Name = "btn_jugar";
-            this.btn_jugar.Size = new System.Drawing.Size(137, 45);
+            this.btn_jugar.Size = new System.Drawing.Size(394, 38);
             this.btn_jugar.TabIndex = 5;
             this.btn_jugar.Text = "Jugar";
             this.btn_jugar.UseVisualStyleBackColor = true;
