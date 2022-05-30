@@ -41,16 +41,17 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(354, 51);
+            this.label1.Location = new System.Drawing.Point(589, 51);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(57, 16);
             this.label1.TabIndex = 0;
             this.label1.Text = "Jugador";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label0
             // 
             this.label0.AutoSize = true;
-            this.label0.Location = new System.Drawing.Point(364, 128);
+            this.label0.Location = new System.Drawing.Point(589, 128);
             this.label0.Name = "label0";
             this.label0.Size = new System.Drawing.Size(73, 16);
             this.label0.TabIndex = 1;
@@ -58,7 +59,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(503, 51);
+            this.textBox1.Location = new System.Drawing.Point(720, 48);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 22);
             this.textBox1.TabIndex = 2;
@@ -66,7 +67,7 @@
             // lbl_puntuacion
             // 
             this.lbl_puntuacion.AutoSize = true;
-            this.lbl_puntuacion.Location = new System.Drawing.Point(518, 128);
+            this.lbl_puntuacion.Location = new System.Drawing.Point(747, 128);
             this.lbl_puntuacion.Name = "lbl_puntuacion";
             this.lbl_puntuacion.Size = new System.Drawing.Size(73, 16);
             this.lbl_puntuacion.TabIndex = 3;
@@ -74,7 +75,7 @@
             // 
             // btn_anyadir
             // 
-            this.btn_anyadir.Location = new System.Drawing.Point(120, 244);
+            this.btn_anyadir.Location = new System.Drawing.Point(120, 383);
             this.btn_anyadir.Name = "btn_anyadir";
             this.btn_anyadir.Size = new System.Drawing.Size(137, 56);
             this.btn_anyadir.TabIndex = 4;
@@ -83,7 +84,7 @@
             // 
             // btn_jugar
             // 
-            this.btn_jugar.Location = new System.Drawing.Point(120, 327);
+            this.btn_jugar.Location = new System.Drawing.Point(120, 471);
             this.btn_jugar.Name = "btn_jugar";
             this.btn_jugar.Size = new System.Drawing.Size(137, 45);
             this.btn_jugar.TabIndex = 5;
@@ -92,9 +93,10 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Image = global::Vetigal24.Properties.Resources.gatos_al_flautista;
             this.pictureBox1.Location = new System.Drawing.Point(51, 38);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(270, 165);
+            this.pictureBox1.Size = new System.Drawing.Size(516, 323);
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             // 
@@ -102,7 +104,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(650, 400);
+            this.ClientSize = new System.Drawing.Size(832, 561);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btn_jugar);
             this.Controls.Add(this.btn_anyadir);
