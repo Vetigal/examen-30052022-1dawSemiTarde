@@ -39,7 +39,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(76, 39);
+            this.label1.Location = new System.Drawing.Point(47, 38);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(341, 20);
             this.label1.TabIndex = 0;
@@ -49,7 +49,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(75, 91);
+            this.label2.Location = new System.Drawing.Point(163, 108);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(118, 29);
             this.label2.TabIndex = 1;
@@ -58,15 +58,15 @@
             // comboBox_pregunta
             // 
             this.comboBox_pregunta.FormattingEnabled = true;
-            this.comboBox_pregunta.Location = new System.Drawing.Point(80, 181);
+            this.comboBox_pregunta.Location = new System.Drawing.Point(51, 179);
             this.comboBox_pregunta.Name = "comboBox_pregunta";
-            this.comboBox_pregunta.Size = new System.Drawing.Size(313, 24);
+            this.comboBox_pregunta.Size = new System.Drawing.Size(337, 24);
             this.comboBox_pregunta.TabIndex = 2;
             // 
             // btn_niIdea
             // 
             this.btn_niIdea.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_niIdea.Location = new System.Drawing.Point(80, 301);
+            this.btn_niIdea.Location = new System.Drawing.Point(51, 271);
             this.btn_niIdea.Name = "btn_niIdea";
             this.btn_niIdea.Size = new System.Drawing.Size(139, 79);
             this.btn_niIdea.TabIndex = 3;
@@ -76,7 +76,7 @@
             // btn_estoySeguro
             // 
             this.btn_estoySeguro.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_estoySeguro.Location = new System.Drawing.Point(253, 301);
+            this.btn_estoySeguro.Location = new System.Drawing.Point(253, 271);
             this.btn_estoySeguro.Name = "btn_estoySeguro";
             this.btn_estoySeguro.Size = new System.Drawing.Size(135, 79);
             this.btn_estoySeguro.TabIndex = 4;
@@ -87,7 +87,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(486, 450);
+            this.ClientSize = new System.Drawing.Size(460, 406);
             this.Controls.Add(this.btn_estoySeguro);
             this.Controls.Add(this.btn_niIdea);
             this.Controls.Add(this.comboBox_pregunta);
