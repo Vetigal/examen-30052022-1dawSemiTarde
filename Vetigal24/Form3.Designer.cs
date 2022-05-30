@@ -78,6 +78,7 @@
             this.btn_niIdea.TabIndex = 3;
             this.btn_niIdea.Text = "Ni idea";
             this.btn_niIdea.UseVisualStyleBackColor = true;
+            this.btn_niIdea.Click += new System.EventHandler(this.btn_niIdea_Click);
             // 
             // btn_estoySeguro
             // 

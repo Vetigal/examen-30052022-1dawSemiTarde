@@ -28,5 +28,10 @@ namespace Vetigal24
         {
 
         }
+
+        private void btn_niIdea_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
