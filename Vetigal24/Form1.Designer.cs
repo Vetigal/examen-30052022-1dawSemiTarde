@@ -1,6 +1,6 @@
 ﻿namespace Vetigal24
 {
-    partial class Form1
+    partial class MainForm
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -47,7 +47,6 @@
             this.label1.Size = new System.Drawing.Size(69, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "Jugador";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label0
             // 
@@ -94,6 +93,7 @@
             this.btn_jugar.TabIndex = 5;
             this.btn_jugar.Text = "Jugar";
             this.btn_jugar.UseVisualStyleBackColor = true;
+            this.btn_jugar.Click += new System.EventHandler(this.btn_jugar_Click);
             // 
             // pictureBox1
             // 
@@ -104,7 +104,7 @@
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             // 
-            // Form1
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -116,7 +116,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label0);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
+            this.Name = "MainForm";
             this.Text = "Hola soy Mister question";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

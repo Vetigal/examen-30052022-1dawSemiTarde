@@ -10,21 +10,36 @@ using System.Windows.Forms;
 
 namespace Vetigal24
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
-        public Form1()
+
+        private string player;
+        private int points;
+        List<object> questions = new List<object>();
+
+
+        public MainForm()
         {
             InitializeComponent();
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
+        public void play(QuestionModel) { }
 
+        public void addQuestion()
+        {
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void btn_jugar_Click(object sender, EventArgs e)
         {
+            QuestionForm formQuestion = new QuestionForm();
+            if (formQuestion.ShowDialog() == DialogResult.OK)
+            {
+                string cadena1 = formQuestion.cad1;
+                string cadena2 = formQuestion.cad2;
+                bool boleano1 = formQuestion.bl1;
+                bool boleano2 = formQuestion.bl2;
 
+            }
         }
     }
 }

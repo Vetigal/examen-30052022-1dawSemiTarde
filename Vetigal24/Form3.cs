@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace Vetigal24
 {
-    public partial class Form3 : Form
+    public partial class GameForm : Form
     {
-        public Form3()
+        
+
+        public GameForm()
         {
             InitializeComponent();
         }
+
+        private void GameForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        
+
     }
 }

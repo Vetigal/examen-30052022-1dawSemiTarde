@@ -1,6 +1,6 @@
 ﻿namespace Vetigal24
 {
-    partial class Form3
+    partial class GameForm
     {
         /// <summary>
         /// Required designer variable.
@@ -83,7 +83,7 @@
             this.btn_estoySeguro.Text = "Estoy seguro";
             this.btn_estoySeguro.UseVisualStyleBackColor = true;
             // 
-            // Form3
+            // GameForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -93,8 +93,9 @@
             this.Controls.Add(this.comboBox_pregunta);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form3";
+            this.Name = "GameForm";
             this.Text = "Hola soy Mister question";
+            this.Load += new System.EventHandler(this.GameForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

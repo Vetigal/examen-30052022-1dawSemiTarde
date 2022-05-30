@@ -10,16 +10,23 @@ using System.Windows.Forms;
 
 namespace Vetigal24
 {
-    public partial class Form2 : Form
+    public partial class QuestionForm : Form
     {
-        public Form2()
+        public QuestionForm()
         {
             InitializeComponent();
         }
 
-        private void label7_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-
+            cad1 = "esta es tu primera cadena";
+            cad2 = "esta es tu segundacadena";
+            bl1 = true;
+            bl2 = false;
+            this.DialogResult = DialogResult.OK;
+            this.Close();
         }
+
+
     }
 }
