@@ -37,15 +37,12 @@ namespace Vetigal24
            
         }
 
-        /*  private void button1_Click(object sender, EventArgs e)
+         private void button1_Click(object sender, EventArgs e)
           {
-              cad1 = "esta es tu primera cadena";
-              cad2 = "esta es tu segundacadena";
-              bl1 = true;
-              bl2 = false;
+             
               this.DialogResult = DialogResult.OK;
               this.Close();
-          }*/
+          }
 
 
     }

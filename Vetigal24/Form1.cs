@@ -17,16 +17,28 @@ namespace Vetigal24
         private int points;
         List<object> questions = new List<object>();
 
+        
+
+        public string player
+        {
+            get { return player; }
+            set { player = value; }
+        }
+
+
 
         public MainForm()
         {
             InitializeComponent();
         }
 
-     //   public void play(QuestionModel) { }
+        public void play(Form2) {
+
+        }
 
         public void addQuestion()
         {
+           
         }
 
         private void btn_jugar_Click(object sender, EventArgs e)
