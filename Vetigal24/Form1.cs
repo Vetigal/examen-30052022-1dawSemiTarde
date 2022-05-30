@@ -13,11 +13,18 @@ namespace Vetigal24
     public partial class MainForm : Form
     {
 
-        private string player;
+        
         private int points;
         List<object> questions = new List<object>();
 
-        
+        private string player;
+
+        public string Player
+        {
+            get { return player; }
+            set { player = value; }
+        }
+
 
         public string player
         {
