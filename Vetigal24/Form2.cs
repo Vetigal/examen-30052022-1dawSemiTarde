@@ -16,6 +16,12 @@ namespace Vetigal24
         private string[]  answer;
         private int value;
 
+        public QuestionForm(string question, string[] answer, int value) {
+            this.question = question;
+            this.answer = answer;
+            this.value = value;
+        }
+
         public QuestionForm()
         {
             InitializeComponent();
@@ -28,7 +34,7 @@ namespace Vetigal24
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
-
+           
         }
 
         /*  private void button1_Click(object sender, EventArgs e)
